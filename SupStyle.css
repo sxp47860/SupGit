@@ -1,0 +1,84 @@
+    h1{
+        color: blueviolet;
+        text-align: center;
+    } 
+    h2{
+        color: teal;
+    }
+    table{
+        border: 2px solid black;
+        border-collapse: collapse;
+    }
+    td,th{
+            border: 2px solid black;
+            padding: 10px;
+            text-align: center;
+            font-style: italic;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+  th{
+      color: palevioletred
+  }
+  #h3id{
+      Color: Magenta  
+  }
+  a{
+      color: orangered
+  }
+a[href = "https://www.google.com"]
+{
+  color: green;
+}
+.links{
+    color:hotpink;
+    text-align: center;
+    font-size: 20;
+}
+button{
+    height: 100px;
+    width: 400px;
+    font-size: 24px;
+    background-color: yellow;
+}
+button:hover{
+   background-color: plum;
+   width: 600px;
+}
+@media(min-width:600px){
+    body{
+        background-color:silver;
+    }
+}
+
+@media(max-width:599px){
+    body{
+        background-color:rosybrown;
+    }
+}
+#container{
+    display: flex;
+    flex-wrap: wrap;
+}
+#container>div{
+    background-color: skyblue;
+    padding: 20px;
+    margin: 20px;
+    border:slategrey;
+    font-size: 18px;
+    width:200px;
+}
+#grid{
+    display:grid;
+    background-color: tomato;
+    padding:2opx;
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+    grid-template-columns: 200px 200px auto;
+}
+.gi{
+    background-color: wheat;
+    font-size:20px;
+    padding: 20px;
+    text-align:center;
+
+}
